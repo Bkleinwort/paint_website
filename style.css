@@ -312,12 +312,12 @@ header {
   flex: 1;
 }
 
-.about-text .section-label,
-.about-text h2 {
+.about-text .section-label {
   text-align: left;
 }
 
 .about-text h2 {
+  text-align: left;
   margin-bottom: 16px;
 }
 
@@ -347,7 +347,7 @@ header {
 .about-photo {
   width: 220px;
   height: 220px;
-  background: linear-gradient(135deg, #7a9ab5, #1a3a5c);
+  background: linear-gradient(135deg, #7a9ab5, var(--navy));
   border-radius: 12px;
   display: flex;
   align-items: center;
