@@ -1,0 +1,119 @@
+/* ============================
+   CSS Custom Properties
+   ============================ */
+:root {
+  --navy: #1a3a5c;
+  --gold: #e8a020;
+  --dark-footer: #111d2b;
+  --light-bg: #eef2f7;
+  --body-text: #444;
+  --muted-text: #666;
+  --border: #cdd5de;
+  --white: #fff;
+}
+
+/* ============================
+   Reset
+   ============================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================
+   Base
+   ============================ */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--body-text);
+  line-height: 1.6;
+}
+
+/* ============================
+   Shared Section Styles
+   ============================ */
+section {
+  padding: 72px 32px;
+}
+
+.section-label {
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section h2 {
+  color: var(--navy);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-intro {
+  color: var(--muted-text);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+/* ============================
+   Shared Buttons
+   ============================ */
+.btn-primary {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--white);
+  padding: 14px 28px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: var(--white);
+  padding: 14px 28px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--white);
+}
+
+/* ============================
+   Form Labels (visually present but compact)
+   ============================ */
+.contact-form label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
