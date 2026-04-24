@@ -228,6 +228,11 @@ header {
   line-height: 1.6;
 }
 
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .hero-ctas {
   display: flex;
   gap: 16px;
