@@ -252,3 +252,43 @@ header {
   font-size: 13px;
   font-weight: 600;
 }
+
+/* ============================
+   Services
+   ============================ */
+#services {
+  background: var(--white);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.service-card {
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 28px;
+}
+
+.service-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.service-card h3 {
+  color: var(--navy);
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--muted-text);
+  font-size: 14px;
+  line-height: 1.6;
+}
