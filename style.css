@@ -188,3 +188,67 @@ header {
   height: 2px;
   background: var(--white);
 }
+
+/* ============================
+   Hero
+   ============================ */
+#hero {
+  background-image: linear-gradient(rgba(20, 45, 75, 0.82), rgba(20, 45, 75, 0.82)),
+                    url('images/hero-bg.jpg');
+  background-color: #2a5a8c;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 32px;
+  text-align: center;
+  color: var(--white);
+}
+
+.eyebrow {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.hero-sub {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 17px;
+  max-width: 520px;
+  margin: 0 auto 36px;
+  line-height: 1.6;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ============================
+   Trust Bar
+   ============================ */
+#trust-bar {
+  background: var(--gold);
+  padding: 14px 32px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#trust-bar span {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+}
