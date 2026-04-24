@@ -390,3 +390,48 @@ header {
   height: 100%;
   object-fit: cover;
 }
+
+/* ============================
+   Testimonials
+   ============================ */
+#testimonials {
+  background: var(--navy);
+}
+
+#testimonials .section-label {
+  color: var(--gold);
+}
+
+#testimonials h2 {
+  color: var(--white);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  border-left: 3px solid var(--gold);
+  padding: 28px;
+}
+
+.testimonial-card p {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.testimonial-card cite {
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+}
