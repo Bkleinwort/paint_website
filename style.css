@@ -648,3 +648,17 @@ footer span {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================
+   Accessibility — keyboard focus
+   ============================ */
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.btn-primary:focus:not(:focus-visible),
+.btn-secondary:focus:not(:focus-visible),
+.nav-cta:focus:not(:focus-visible) {
+  outline: none;
+}
