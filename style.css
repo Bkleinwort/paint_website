@@ -117,3 +117,74 @@ section h2 {
   margin-bottom: 4px;
   text-transform: uppercase;
 }
+
+/* ============================
+   Navigation
+   ============================ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#main-nav {
+  background: var(--navy);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 32px;
+}
+
+.nav-logo {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+#nav-links a {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+#nav-links a:hover {
+  color: var(--white);
+}
+
+.nav-cta {
+  background: var(--gold);
+  color: var(--white) !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.nav-cta:hover {
+  opacity: 0.9;
+}
+
+#nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+#nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+}
