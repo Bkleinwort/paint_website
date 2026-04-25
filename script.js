@@ -31,7 +31,7 @@ if (contactForm) {
         contactForm.reset();
         success.hidden = false;
         error.hidden = true;
-        btn.hidden = true;
+        btn.textContent = 'Message Sent!';
       } else {
         throw new Error();
       }
