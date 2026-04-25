@@ -2,6 +2,41 @@
 
 ---
 
+## The Pitch
+
+### Email Draft
+
+**Subject:** Hey Alfredo — quick idea before your job
+
+Hi Alfredo,
+
+Looking forward to having you in for the [job description] — appreciate you fitting us in.
+
+I had an idea I wanted to run by you. I'm a software developer and I put together a website for your business — Real Painting LLC — as a side project. It's a full single-page site: your services, an about section, a photo gallery, testimonials, and a contact form where customers can request quotes. All it needs is your real content (photos, bio, your phone number, etc.) to be ready to go live.
+
+I'd love to show it to you when you're here. If you like it and want to use it, I'd be happy to hand it over in exchange for a little off the job — I'll leave the number up to you, whatever feels fair.
+
+No pressure either way. Just thought it might be useful, and it seemed like a better use of the work than leaving it sitting on my hard drive.
+
+Let me know what you think.
+
+Thanks again,
+Brandon
+
+### What This Work Is Worth
+
+For context if the conversation comes up:
+
+- **Freelancer (mid-level):** $1,500–$3,000
+- **Agency:** $3,000–$8,000+
+- **Website builder (Squarespace/Wix):** $500–$1,000/year ongoing
+
+This site is custom coded, mobile responsive, accessible, has a working contact form, and comes with handoff documentation — comfortably in the **$2,000–$2,500** range at market rate.
+
+For a barter, a good sweet spot is something meaningful to him but well below market — **$400–$600 off** the job feels generous without being awkward. Leaving the number to him ("whatever feels fair") tends to work well with tradespeople and usually gets a generous response.
+
+---
+
 ## Content for the Site (required to launch)
 
 - [ ] **Tagline** — the subheadline under "Professional Painting You Can Trust"
