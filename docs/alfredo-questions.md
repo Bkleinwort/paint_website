@@ -47,6 +47,42 @@
 ## Launch Logistics
 
 - [ ] Desired domain name (e.g. realpainting.com — needs to be purchased)
-- [ ] Does he want a Google Business Profile? (highly recommended — see notes)
-- [ ] Does he want a Yelp listing? (optional — see notes)
+- [ ] Does he want a Google Business Profile? (highly recommended — see notes below)
+- [ ] Does he want a Yelp listing? (optional — see notes below)
 - [ ] Does he want visitor analytics (Google Analytics)?
+
+---
+
+## Launch Logistics — Notes
+
+### Domain Name
+
+A `.com` domain costs **$10–15/year**. You buy it from a registrar — Namecheap and Cloudflare Registrar are straightforward and fairly priced. GoDaddy works but is aggressive about upsells.
+
+The process: search for the name you want, pay for it, then point it at Netlify by updating two DNS records — Netlify walks you through exactly what to type. Takes about 10 minutes of work, then up to 24 hours to go live worldwide (usually much faster).
+
+Netlify hosting is free. The domain name is the only annual cost.
+
+### Google Business Profile
+
+**Free. Highly recommended.**
+
+This is likely the highest-impact thing Alfredo can do for his business — more than the website itself. When someone searches "painter near me" or "house painter Seattle," Google Business results appear *above* regular websites. It shows his name, phone number, hours, photos, reviews, and a map pin.
+
+The main ongoing effort: responding to reviews and uploading job photos occasionally. Negative reviews are public, but a thoughtful response to a bad review actually builds trust with potential customers.
+
+If he doesn't have one yet, setup takes about 30 minutes. Google mails a postcard to verify the business address.
+
+### Yelp
+
+**Optional.**
+
+Some people use Yelp to find local contractors, so having a presence doesn't hurt. The downsides: Yelp has a reputation for aggressive sales calls once you claim a listing, and their algorithm sometimes suppresses legitimate positive reviews while pushing paid advertising. For most local tradespeople, Google Business Profile drives far more leads.
+
+Worth claiming the listing so the basic info is correct and no one else controls it — but don't pay for Yelp advertising.
+
+### Google Analytics
+
+**Free. Not critical at launch.**
+
+Tells you how many people visit the site, where they came from, and what they clicked. Useful once the site has real traffic. Easy to add later — just a one-line script tag in `index.html`.
