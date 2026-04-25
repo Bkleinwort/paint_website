@@ -32,6 +32,7 @@ if (contactForm) {
         success.hidden = false;
         error.hidden = true;
         btn.textContent = 'Message Sent!';
+        setTimeout(() => { success.hidden = true; }, 5000);
       } else {
         throw new Error();
       }
