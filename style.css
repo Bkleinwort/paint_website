@@ -525,6 +525,27 @@ header {
   resize: vertical;
 }
 
+.form-success {
+  color: #2a7a3b;
+  background: #eaf7ed;
+  border: 1px solid #b6dfc0;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.form-error {
+  color: #9b2c2c;
+  background: #fff5f5;
+  border: 1px solid #f5c6c6;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
 .contact-form .btn-primary {
   width: 100%;
   font-size: 15px;

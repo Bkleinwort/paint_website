@@ -12,6 +12,38 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const navToggle = document.getElementById('nav-toggle');
 const navLinks = document.getElementById('nav-links');
 
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = contactForm.querySelector('button[type="submit"]');
+    const success = contactForm.querySelector('.form-success');
+    const error = contactForm.querySelector('.form-error');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    try {
+      const res = await fetch(contactForm.action, {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        contactForm.reset();
+        success.hidden = false;
+        error.hidden = true;
+        btn.hidden = true;
+      } else {
+        throw new Error();
+      }
+    } catch {
+      error.hidden = false;
+      success.hidden = true;
+      btn.disabled = false;
+      btn.textContent = 'Send Message';
+    }
+  });
+}
+
 if (navToggle && navLinks) {
   navToggle.addEventListener('click', () => {
     const isOpen = navLinks.classList.toggle('open');
