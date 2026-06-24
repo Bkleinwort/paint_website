@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Real Painting LLC — A Few Quick Questions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo">REAL PAINTING LLC</a>
+    </nav>
+  </header>
+
+  <main>
+
+  <section id="intro">
+    <p class="section-label">A FEW QUICK QUESTIONS</p>
+    <h1>Help Us Finish Your Website</h1>
+    <p class="section-intro">Hi Alfredo — this page replaces the long list of questions we'd otherwise email you. Most items below are just a checkbox or a quick click, not something you need to write out. Skip anything you're not sure about — we can always follow up by text. Thanks for taking a few minutes on this!</p>
+  </section>
+
+  <form name="client-intake" method="POST" action="/client-questions.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="intake-form">
+    <input type="hidden" name="form-name" value="client-intake">
+    <p hidden>
+      <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+
+    <section class="intake-section" id="website-content">
+      <p class="section-label">SECTION 1 OF 4</p>
+      <h2>Website Content</h2>
+      <div class="intake-fields">
+
+        <fieldset class="field">
+          <legend class="field-question">Proposed tagline: <strong>&ldquo;Professional Painting You Can Trust&rdquo;</strong> — does that work for you?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="tagline_ok" value="yes"> Yes, that works</label>
+            <label class="choice"><input type="radio" name="tagline_ok" value="no"> No — I'd prefer something else</label>
+          </div>
+          <input type="text" name="tagline_alt" placeholder="Your tagline (if different)">
+        </fieldset>
+
+        <div class="field">
+          <label for="years_in_business">How many years has Real Painting LLC been in business?</label>
+          <input type="number" id="years_in_business" name="years_in_business" min="0" placeholder="e.g. 8">
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-question">What services do you offer? (check all that apply)</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="services" value="Interior painting"> Interior painting</label>
+            <label class="choice"><input type="checkbox" name="services" value="Exterior painting"> Exterior painting</label>
+            <label class="choice"><input type="checkbox" name="services" value="Cabinet painting or refinishing"> Cabinet painting or refinishing</label>
+            <label class="choice"><input type="checkbox" name="services" value="Deck staining or painting"> Deck staining or painting</label>
+            <label class="choice"><input type="checkbox" name="services" value="Fence painting"> Fence painting</label>
+            <label class="choice"><input type="checkbox" name="services" value="Drywall repair"> Drywall repair</label>
+            <label class="choice"><input type="checkbox" name="services" value="Pressure washing"> Pressure washing</label>
+          </div>
+          <input type="text" name="services_other" placeholder="Other services (optional)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Do you work on:</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="client_type" value="Homes only"> Homes only</label>
+            <label class="choice"><input type="radio" name="client_type" value="Businesses only"> Businesses only</label>
+            <label class="choice"><input type="radio" name="client_type" value="Both homes and businesses"> Both homes and businesses</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="bio_background">In a sentence or two, your background as a painter</label>
+          <textarea id="bio_background" name="bio_background" rows="2" placeholder="e.g. how long you've been painting, how you got started…"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="bio_motivation">What motivates your work?</label>
+          <textarea id="bio_motivation" name="bio_motivation" rows="2" placeholder="e.g. what you enjoy about the job, what you take pride in…"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="bio_local">Any local connections you'd like to mention?</label>
+          <textarea id="bio_local" name="bio_local" rows="2" placeholder="e.g. how long you've lived in the area, neighborhoods you know well…"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="headshot">A photo of you (optional)</label>
+          <input type="file" id="headshot" name="headshot" accept="image/*">
+          <p class="field-help">If this doesn't upload, just text it to 206-856-2841 instead.</p>
+        </div>
+
+        <div class="field">
+          <label for="hero_photo">A landscape photo for the website's main background (optional)</label>
+          <input type="file" id="hero_photo" name="hero_photo" accept="image/*">
+          <p class="field-help">Ideally a wide photo, at least 1600×900px — a job site or finished room works great. If you don't have one, the current placeholder is fine. If this doesn't upload, just text it to 206-856-2841 instead.</p>
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-question">Client testimonials (optional — share as many as you have, up to 3)</legend>
+          <div class="testimonial-fields">
+            <input type="text" name="testimonial1_name" placeholder="Client name">
+            <input type="text" name="testimonial1_city" placeholder="City">
+            <textarea name="testimonial1_quote" rows="2" placeholder="What they said"></textarea>
+          </div>
+          <div class="testimonial-fields">
+            <input type="text" name="testimonial2_name" placeholder="Client name">
+            <input type="text" name="testimonial2_city" placeholder="City">
+            <textarea name="testimonial2_quote" rows="2" placeholder="What they said"></textarea>
+          </div>
+          <div class="testimonial-fields">
+            <input type="text" name="testimonial3_name" placeholder="Client name">
+            <input type="text" name="testimonial3_city" placeholder="City">
+            <textarea name="testimonial3_quote" rows="2" placeholder="What they said"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Current phone number: <strong>206-856-2841</strong> — is this correct?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="phone_ok" value="yes"> Yes, that's correct</label>
+            <label class="choice"><input type="radio" name="phone_ok" value="no"> No — here's the correct number:</label>
+          </div>
+          <input type="text" name="phone_correction" placeholder="Correct phone number (if different)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Current contact email: <strong>real_painting@yahoo.com</strong> — is this correct?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="email_ok" value="yes"> Yes, that's correct</label>
+            <label class="choice"><input type="radio" name="email_ok" value="no"> No — here's the correct email:</label>
+          </div>
+          <input type="text" name="email_correction" placeholder="Correct email (if different)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Current business hours: <strong>Mon–Sat, 7am–6pm</strong> — does that work?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="hours_ok" value="yes"> Yes, that works</label>
+            <label class="choice"><input type="radio" name="hours_ok" value="no"> No — here are my hours:</label>
+          </div>
+          <input type="text" name="hours_correction" placeholder="Correct hours (if different)">
+        </fieldset>
+
+        <div class="field">
+          <label for="license_number">Contractor license number (optional)</label>
+          <input type="text" id="license_number" name="license_number" placeholder="Leave blank if you don't have one or prefer not to list it">
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-question">How fast should we say we respond to new quote requests?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="response_time" value="Within 1 business hour"> Within 1 business hour</label>
+            <label class="choice"><input type="radio" name="response_time" value="Within 4 business hours"> Within 4 business hours</label>
+            <label class="choice"><input type="radio" name="response_time" value="Within 1 business day"> Within 1 business day</label>
+            <label class="choice"><input type="radio" name="response_time" value="other"> Other:</label>
+          </div>
+          <input type="text" name="response_time_other" placeholder="Your own response time (if different)">
+        </fieldset>
+
+      </div>
+    </section>
+
+    <section class="intake-section" id="business-details">
+      <p class="section-label">SECTION 2 OF 4</p>
+      <h2>Business Details</h2>
+      <div class="intake-fields">
+
+        <fieldset class="field">
+          <legend class="field-question">What sets you apart from other painters in the area? (check all that apply)</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="differentiators" value="Years of experience"> Years of experience</label>
+            <label class="choice"><input type="checkbox" name="differentiators" value="Attention to detail and cleanup"> Attention to detail and cleanup</label>
+            <label class="choice"><input type="checkbox" name="differentiators" value="Fair, transparent pricing"> Fair, transparent pricing</label>
+            <label class="choice"><input type="checkbox" name="differentiators" value="Punctual and reliable"> Punctual and reliable</label>
+            <label class="choice"><input type="checkbox" name="differentiators" value="I do the work myself, not subcontracted"> I do the work myself, not subcontracted</label>
+            <label class="choice"><input type="checkbox" name="differentiators" value="Bilingual service"> Bilingual service</label>
+          </div>
+          <input type="text" name="differentiators_other" placeholder="Anything else (optional)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Do you offer any job guarantees? (check all that apply)</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="guarantees" value="Multi-coat application"> Multi-coat application</label>
+            <label class="choice"><input type="checkbox" name="guarantees" value="Touch-up policy after the job"> Touch-up policy after the job</label>
+            <label class="choice"><input type="checkbox" name="guarantees" value="Satisfaction guarantee"> Satisfaction guarantee</label>
+            <label class="choice"><input type="checkbox" name="guarantees" value="Warranty"> Warranty</label>
+          </div>
+          <input type="text" name="warranty_length" placeholder="Warranty length, if any (optional)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Do you walk through the finished job with the client?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="walkthrough" value="yes"> Yes</label>
+            <label class="choice"><input type="radio" name="walkthrough" value="no"> No</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Do you work solo or with a crew?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="crew_size" value="I work solo"> I work solo</label>
+            <label class="choice"><input type="radio" name="crew_size" value="Small crew"> Small crew</label>
+            <label class="choice"><input type="radio" name="crew_size" value="Larger crew"> Larger crew</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Is your business:</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="business_status" value="Licensed"> Licensed</label>
+            <label class="choice"><input type="checkbox" name="business_status" value="Bonded"> Bonded</label>
+            <label class="choice"><input type="checkbox" name="business_status" value="Insured"> Insured</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="certifications">Any certifications or training worth mentioning? (optional)</label>
+          <input type="text" id="certifications" name="certifications">
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-question">Which cities are you willing to travel to for work? (we guessed based on your tagline — add or remove as needed)</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="service_cities" value="Seattle"> Seattle</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Shoreline"> Shoreline</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Edmonds"> Edmonds</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Mukilteo"> Mukilteo</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Everett"> Everett</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Lynnwood"> Lynnwood</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Bothell"> Bothell</label>
+            <label class="choice"><input type="checkbox" name="service_cities" value="Kirkland"> Kirkland</label>
+          </div>
+          <input type="text" name="service_cities_other" placeholder="Other cities (optional)">
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">Who is your ideal customer? (check all that apply)</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="ideal_customer" value="Homeowners"> Homeowners</label>
+            <label class="choice"><input type="checkbox" name="ideal_customer" value="Property managers"> Property managers</label>
+            <label class="choice"><input type="checkbox" name="ideal_customer" value="Businesses or commercial clients"> Businesses or commercial clients</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="notable_projects">Any notable past projects you'd like to highlight? (optional)</label>
+          <input type="text" id="notable_projects" name="notable_projects" placeholder="e.g. schools, commercial buildings, large homes">
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-question">What languages do you speak?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="checkbox" name="languages" value="English"> English</label>
+            <label class="choice"><input type="checkbox" name="languages" value="Spanish"> Spanish</label>
+          </div>
+          <input type="text" name="languages_other" placeholder="Other languages (optional)">
+        </fieldset>
+
+      </div>
+    </section>
+
+    <section class="intake-section" id="branding">
+      <p class="section-label">SECTION 3 OF 4</p>
+      <h2>Branding</h2>
+      <div class="intake-fields">
+
+        <fieldset class="field">
+          <legend class="field-question">Do you have a logo we could add to the site?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="has_logo" value="yes"> Yes — attached below</label>
+            <label class="choice"><input type="radio" name="has_logo" value="no"> No logo</label>
+          </div>
+          <input type="file" name="logo_file" accept="image/*">
+          <p class="field-help">If this doesn't upload, just text it to 206-856-2841 instead.</p>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-question">The current color scheme is navy and gold — does that work for you?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="colors_ok" value="yes"> Yes, that works</label>
+            <label class="choice"><input type="radio" name="colors_ok" value="no"> No — I'd prefer:</label>
+          </div>
+          <input type="text" name="colors_alt" placeholder="Preferred colors (if different)">
+        </fieldset>
+
+      </div>
+    </section>
+
+    <section class="intake-section" id="launch-logistics">
+      <p class="section-label">SECTION 4 OF 4</p>
+      <h2>Launch Logistics</h2>
+      <div class="intake-fields">
+
+        <div class="info-block">
+          <h3>Domain Name</h3>
+          <p>The site is currently live at <strong>realpainting.netlify.app</strong>, which is free and stays free. A custom domain like realpainting.com costs about $10–15/year, looks more professional, and tends to do better in Google search results. You can always switch to one later.</p>
+        </div>
+        <fieldset class="field">
+          <legend class="field-question">What would you like to do about a domain name?</legend>
+          <div class="choice-group">
+            <label class="choice"><input type="radio" name="domain_decision" value="Keep the free address for now"> Keep the free realpainting.netlify.app address for now</label>
+            <label class="choice"><input type="radio" name="domain_decision" value="I'd like a custom domain"> I'd like to get a custom domain (e.g. realpainting.com)</label>
+            <label class="choice"><input type="radio" name="domain_decision" value="Not sure yet"> Not sure yet, let's discuss</label>
+          </div>
+        </fieldset>
+
+        <div class="info-block">
+          <h3>Google Business Profile</h3>
+          <p>This is probably the single most valuable thing you can do for your business — free, and it's what shows up when someone searches &ldquo;house painter Seattle.&rdquo; Go to business.google.com, add your business as a service-area business, and Google will mail you a verification postcard. Once live, ask happy customers for reviews and respond to every one.</p>
+        </div>
+        <div class="field">
+          <label class="choice"><input type="checkbox" name="gbp_ack" value="yes"> I'll set up a Google Business Profile</label>
+        </div>
+
+        <div class="info-block">
+          <h3>Yelp</h3>
+          <p>Optional, and less impactful than Google Business Profile for most painters — but worth claiming so no one else controls your listing. Go to biz.yelp.com to claim or create yours. Fair warning: Yelp will call with sales pitches afterward — the free listing is all you need.</p>
+        </div>
+        <div class="field">
+          <label class="choice"><input type="checkbox" name="yelp_ack" value="yes"> I'm interested in setting up a Yelp listing too</label>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="submit-section">
+      <button type="submit" class="btn-primary">Send to Brandon</button>
+      <p class="form-success" hidden>Thanks, Alfredo! We've got it — we'll be in touch.</p>
+      <p class="form-error" hidden>Something went wrong. Please try again, or just text Brandon directly.</p>
+    </section>
+
+  </form>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Real Painting LLC · Seattle, WA</span>
+    <span>Licensed &amp; Insured · License #[XXX]</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
