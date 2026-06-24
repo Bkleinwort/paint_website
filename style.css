@@ -818,16 +818,44 @@ header.scrolled #main-nav {
 }
 
 .info-block p {
-  color: var(--muted-text);
-  font-size: 13.5px;
-  line-height: 1.65;
+  color: var(--body-text);
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+
+.info-block a,
+.section-intro a {
+  color: var(--navy);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.info-block a:hover,
+.section-intro a:hover {
+  color: var(--gold);
+}
+
+.testimonial-group {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.testimonial-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
 }
 
 .testimonial-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  margin-bottom: 16px;
 }
 
 .testimonial-fields textarea {

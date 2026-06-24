@@ -23,7 +23,7 @@
   <section id="intro">
     <p class="section-label">A FEW QUICK QUESTIONS</p>
     <h1>Help Us Finish Your Website</h1>
-    <p class="section-intro">Hi Alfredo — this page replaces the long list of questions we'd otherwise email you. Most items below are just a checkbox or a quick click, not something you need to write out. Skip anything you're not sure about — we can always follow up by text. Thanks for taking a few minutes on this!</p>
+    <p class="section-intro">Hi Alfredo — this page replaces the long list of questions I'd otherwise email you. You can see the current site we're filling in details for at <a href="https://realpainting.netlify.app/" target="_blank" rel="noopener">realpainting.netlify.app</a>. Most items below are just a checkbox or a quick click, not something you need to write out. Skip anything you're not sure about — we can always follow up by text. Thanks for taking a few minutes on this!</p>
   </section>
 
   <form name="client-intake" method="POST" action="/client-questions.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="intake-form">
@@ -48,7 +48,7 @@
 
         <div class="field">
           <label for="years_in_business">How many years has Real Painting LLC been in business?</label>
-          <input type="number" id="years_in_business" name="years_in_business" min="0" placeholder="e.g. 8">
+          <input type="number" id="years_in_business" name="years_in_business" min="0" placeholder="Example: 8">
         </div>
 
         <fieldset class="field">
@@ -76,47 +76,56 @@
 
         <div class="field">
           <label for="bio_background">In a sentence or two, your background as a painter</label>
-          <textarea id="bio_background" name="bio_background" rows="2" placeholder="e.g. how long you've been painting, how you got started…"></textarea>
+          <textarea id="bio_background" name="bio_background" rows="2" placeholder="Example: how long you've been painting, how you got started…"></textarea>
         </div>
 
         <div class="field">
           <label for="bio_motivation">What motivates your work?</label>
-          <textarea id="bio_motivation" name="bio_motivation" rows="2" placeholder="e.g. what you enjoy about the job, what you take pride in…"></textarea>
+          <textarea id="bio_motivation" name="bio_motivation" rows="2" placeholder="Example: what you enjoy about the job, what you take pride in…"></textarea>
         </div>
 
         <div class="field">
           <label for="bio_local">Any local connections you'd like to mention?</label>
-          <textarea id="bio_local" name="bio_local" rows="2" placeholder="e.g. how long you've lived in the area, neighborhoods you know well…"></textarea>
+          <textarea id="bio_local" name="bio_local" rows="2" placeholder="Example: how long you've lived in the area, neighborhoods you know well…"></textarea>
         </div>
 
         <div class="field">
           <label for="headshot">A photo of you (optional)</label>
           <input type="file" id="headshot" name="headshot" accept="image/*">
-          <p class="field-help">If this doesn't upload, just text it to 206-856-2841 instead.</p>
+          <p class="field-help">If this doesn't upload, just text it to 425-233-7458 instead.</p>
         </div>
 
         <div class="field">
           <label for="hero_photo">A landscape photo for the website's main background (optional)</label>
           <input type="file" id="hero_photo" name="hero_photo" accept="image/*">
-          <p class="field-help">Ideally a wide photo, at least 1600×900px — a job site or finished room works great. If you don't have one, the current placeholder is fine. If this doesn't upload, just text it to 206-856-2841 instead.</p>
+          <p class="field-help">Ideally a wide photo, at least 1600×900px — a job site or finished room works great. If you don't have one, the current placeholder is fine. If this doesn't upload, just text it to 425-233-7458 instead.</p>
         </div>
 
         <fieldset class="field">
           <legend class="field-question">Client testimonials (optional — share as many as you have, up to 3)</legend>
-          <div class="testimonial-fields">
-            <input type="text" name="testimonial1_name" placeholder="Client name">
-            <input type="text" name="testimonial1_city" placeholder="City">
-            <textarea name="testimonial1_quote" rows="2" placeholder="What they said"></textarea>
+          <div class="testimonial-group">
+            <p class="testimonial-label">Testimonial 1</p>
+            <div class="testimonial-fields">
+              <input type="text" name="testimonial1_name" placeholder="Client name">
+              <input type="text" name="testimonial1_city" placeholder="City">
+              <textarea name="testimonial1_quote" rows="2" placeholder="What they said"></textarea>
+            </div>
           </div>
-          <div class="testimonial-fields">
-            <input type="text" name="testimonial2_name" placeholder="Client name">
-            <input type="text" name="testimonial2_city" placeholder="City">
-            <textarea name="testimonial2_quote" rows="2" placeholder="What they said"></textarea>
+          <div class="testimonial-group">
+            <p class="testimonial-label">Testimonial 2</p>
+            <div class="testimonial-fields">
+              <input type="text" name="testimonial2_name" placeholder="Client name">
+              <input type="text" name="testimonial2_city" placeholder="City">
+              <textarea name="testimonial2_quote" rows="2" placeholder="What they said"></textarea>
+            </div>
           </div>
-          <div class="testimonial-fields">
-            <input type="text" name="testimonial3_name" placeholder="Client name">
-            <input type="text" name="testimonial3_city" placeholder="City">
-            <textarea name="testimonial3_quote" rows="2" placeholder="What they said"></textarea>
+          <div class="testimonial-group">
+            <p class="testimonial-label">Testimonial 3</p>
+            <div class="testimonial-fields">
+              <input type="text" name="testimonial3_name" placeholder="Client name">
+              <input type="text" name="testimonial3_city" placeholder="City">
+              <textarea name="testimonial3_quote" rows="2" placeholder="What they said"></textarea>
+            </div>
           </div>
         </fieldset>
 
@@ -252,7 +261,7 @@
 
         <div class="field">
           <label for="notable_projects">Any notable past projects you'd like to highlight? (optional)</label>
-          <input type="text" id="notable_projects" name="notable_projects" placeholder="e.g. schools, commercial buildings, large homes">
+          <input type="text" id="notable_projects" name="notable_projects" placeholder="Example: schools, commercial buildings, large homes">
         </div>
 
         <fieldset class="field">
@@ -279,7 +288,7 @@
             <label class="choice"><input type="radio" name="has_logo" value="no"> No logo</label>
           </div>
           <input type="file" name="logo_file" accept="image/*">
-          <p class="field-help">If this doesn't upload, just text it to 206-856-2841 instead.</p>
+          <p class="field-help">If this doesn't upload, just text it to 425-233-7458 instead.</p>
         </fieldset>
 
         <fieldset class="field">
@@ -307,14 +316,14 @@
           <legend class="field-question">What would you like to do about a domain name?</legend>
           <div class="choice-group">
             <label class="choice"><input type="radio" name="domain_decision" value="Keep the free address for now"> Keep the free realpainting.netlify.app address for now</label>
-            <label class="choice"><input type="radio" name="domain_decision" value="I'd like a custom domain"> I'd like to get a custom domain (e.g. realpainting.com)</label>
+            <label class="choice"><input type="radio" name="domain_decision" value="I'd like a custom domain"> I'd like to get a custom domain (for example, realpainting.com)</label>
             <label class="choice"><input type="radio" name="domain_decision" value="Not sure yet"> Not sure yet, let's discuss</label>
           </div>
         </fieldset>
 
         <div class="info-block">
           <h3>Google Business Profile</h3>
-          <p>This is probably the single most valuable thing you can do for your business — free, and it's what shows up when someone searches &ldquo;house painter Seattle.&rdquo; Go to business.google.com, add your business as a service-area business, and Google will mail you a verification postcard. Once live, ask happy customers for reviews and respond to every one.</p>
+          <p>This is probably the single most valuable thing you can do for your business — free, and it's what shows up when someone searches &ldquo;house painter Seattle.&rdquo; Go to <a href="https://business.google.com" target="_blank" rel="noopener">business.google.com</a>, add your business as a service-area business, and Google will mail you a verification postcard. Once live, ask happy customers for reviews and respond to every one.</p>
         </div>
         <div class="field">
           <label class="choice"><input type="checkbox" name="gbp_ack" value="yes"> I'll set up a Google Business Profile</label>
@@ -322,7 +331,7 @@
 
         <div class="info-block">
           <h3>Yelp</h3>
-          <p>Optional, and less impactful than Google Business Profile for most painters — but worth claiming so no one else controls your listing. Go to biz.yelp.com to claim or create yours. Fair warning: Yelp will call with sales pitches afterward — the free listing is all you need.</p>
+          <p>Optional, and less impactful than Google Business Profile for most painters — but worth claiming so no one else controls your listing. Go to <a href="https://biz.yelp.com" target="_blank" rel="noopener">biz.yelp.com</a> to claim or create yours. Fair warning: Yelp will call with sales pitches afterward — the free listing is all you need.</p>
         </div>
         <div class="field">
           <label class="choice"><input type="checkbox" name="yelp_ack" value="yes"> I'm interested in setting up a Yelp listing too</label>
